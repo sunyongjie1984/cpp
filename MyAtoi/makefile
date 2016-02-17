@@ -1,5 +1,5 @@
 all : MyAtoi
 MyAtoi : MyAtoi.cpp
-	g++ -g -Wall MyAtoi.cpp -o MyAtoi
+	g++ -o MyAtoi -g -Wall MyAtoi.cpp
 clean:
-	rm -rf MyAtoi
+	rm -rf MyAtoi *.dSYM
