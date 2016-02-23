@@ -5,7 +5,7 @@ int main()
     double a = 9.87777;
     double b = 9.87776;
     double c = 10;
-    double * p = &c;
+    double* p = &c;
     std::cout << "*p = " << *p << std::endl;
 
     std::cout << "sizeof float   =: " << sizeof(float)  << std::endl;
